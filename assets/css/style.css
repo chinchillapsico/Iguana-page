@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000000;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.5em;
+  padding-bottom: 1em;
+  font-weight: 500;
+}
+
+h6{
+  font-size: 1em;
+  display: inline-block;
+  font-weight: 400;
+  padding-top: 1em;
+}
+.img-header{
+  max-width: 100%;
+  height: auto;
+}
+.desc-section{
+  background-color:  #000000;
+  display: inline-block;
+  font-weight: 300;
+  padding: 4em;
+
+}
+.desc-section p{
+  width: 35%;
+  height: auto;
+  font-size: 1em;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+.desc-section #iguana-1{
+  width: 35%;
+  float: right;
+  padding-right: 5em;
+}
+.icons-section{
+  display: inline-block;
+  background-color:  #1e1a13;
+  font-weight: 300;
+  width: 100%;
+  padding: 3em 0em;
+
+}
+.icons-section .icon{
+  display: inline-block;
+  padding: 1em;
+  width: 20%;
+  font-weight: 300;
+}
+
+.column {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  margin: 2em;
+
+}
+.column img{
+  width: 100%;
+}
+.row {
+  content: "";
+  padding: 2em;
+  clear: both;
+  display: table;
+}
+.column #image-4{
+  padding-right: 2em;
+}
+
+footer{
+  background-color: #1e1a13;
+  font-weight: 300;
+  padding: 2em;
+}
